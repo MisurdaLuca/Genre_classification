@@ -210,8 +210,8 @@ def predict_top_3_genres(model, X, label_encoder):
 
 # Load model and encoder
 try:
-    knn_model = joblib.load("D:\\git\\Music_genre_classification\\knn_weighted.pkl")
-    label_encoder = joblib.load("D:\\git\\Music_genre_classification\\label_encoder.pkl")
+    knn_model = joblib.load("knn_weighted.pkl")
+    label_encoder = joblib.load("label_encoder.pkl")
 except FileNotFoundError:
     st.error("Model or label encoder file not found. Please ensure 'knn_model.pkl' and 'label_encoder.pkl' are available.")
     st.stop()
