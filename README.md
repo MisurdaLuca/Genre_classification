@@ -1,7 +1,7 @@
 ![Logo](https://uni-obuda.hu/wp-content/uploads/2021/11/kep3.jpg)
 # 🎵 Music Genre Classification with Machine Learning
 
-**Status:** ✅ Completed  
+**Status:** On Going  
 **University Project** – Óbuda University, BSc in Computer Engineering  
 **Subject:** Machine Learning / AI specialization
 
