@@ -20,8 +20,7 @@ This project uses the publicly available **Spotify API** and an album.
 - **Streamlit** - deploy
 - **Matplotlib**, **Seaborn** – visualization of metrics  
 - **Scikit-learn** – classification evaluation (accuracy, confusion matrix, etc.)
-- **NLTK** (WordNet) – synonym detection and semantic filtering
-- **Sentence Transformers** – embedding-based similarity for synonym elimination
+- **Librosa** - extracting music features
 
 ## 🎓Author
 
