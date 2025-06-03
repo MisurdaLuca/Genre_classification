@@ -1,4 +1,7 @@
-![Logo](https://uni-obuda.hu/wp-content/uploads/2021/11/kep3.jpg)
+<p align="left">
+  <img src="https://aml.nik.uni-obuda.hu/themes/aml/assets/images/oe_nik_modern.png" width="1800" height="190" />
+</p>
+
 # 🎵 Music Genre Classification with Machine Learning
 
 ## Status: On Going
