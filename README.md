@@ -1,56 +1,33 @@
 ![Logo](https://uni-obuda.hu/wp-content/uploads/2021/11/kep3.jpg)
 # 🎵 Music Genre Classification with Machine Learning
 
-**Status:** On Going  
-**University Project** – Óbuda University, BSc in Computer Engineering  
-**Subject:** Machine Learning / AI specialization
+## Status: On Going
 
-## 📘 Overview
+## 👋🏼 Welcome to my project work!
 
-This project focuses on the automatic classification of music tracks into predefined **genres** using machine learning techniques.
+This repository is part of a semester-long assignment for the **Ai Projectwork** course at the **University of Óbuda**, within the **Artificial Intelligence specialization**.
 
-It combines **audio signal processing** with **metadata from the Spotify API** to improve genre classification performance.
+I collected music from Spotify with genres, which I first split into 15 categories, but later in the project I clustered them into 8 genres. <br> The aim of the project is to create an Ai model that predicts the 3 most likely genres by segmenting the music.
 
-The main goal is to demonstrate how artificial intelligence can be applied to multimedia data, and how open APIs like Spotify’s can enhance traditional audio-based models.
+## 📂 Dataset
 
-## 🧠 Technologies Used
+This project uses the publicly available **Spotify API** and an album.
+[The Sound of Everything](https://open.spotify.com/playlist/69fEt9DN5r4JQATi52sRtq?si=33218d81df2d430d)
 
-### Core
+## 🧰 Technologies Used
 
-- **Python** (main language)
-- **Librosa** – audio feature extraction
-- **NumPy**, **Pandas**, **Scikit-learn** – data processing and ML
-- **TensorFlow** / **Keras** – deep learning model
+- **Python** – primary programming language  
+- **Streamlit** - deploy
+- **Matplotlib**, **Seaborn** – visualization of metrics  
+- **Scikit-learn** – classification evaluation (accuracy, confusion matrix, etc.)
+- **NLTK** (WordNet) – synonym detection and semantic filtering
+- **Sentence Transformers** – embedding-based similarity for synonym elimination
 
-### External Data
+## 🎓Author
 
-- **Spotipy** – a lightweight Python client for the **Spotify Web API**, used to fetch:
-  - Track metadata
-  - Genre tags
-  - Artist information
+[@MisurdaLuca](https://github.com/MisurdaLuca)
 
-### Optional
+University of Óbuda – Artificial Intelligence specialization
 
-- **Streamlit** – for interactive web-based demo (not yet implemented)
-
-## 🎓 Educational Context
-
-This project was developed as part of the **AI specialization** in the **Computer Engineering BSc program** at **Óbuda University**, for a machine learning course.
-
-It shows how combining signal processing with real-world metadata can improve music classification systems.
-
-## 📁 Repository Contents
-
-- `genre_classification.ipynb` – Main Jupyter Notebook  
-- `models/` – Trained models (optional)  
-- `data/` – Audio and metadata inputs (not included)  
-- `README.md` – Project overview  
-
-## 🚀 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MisurdaLuca/Genre_classification.git
-   cd Genre_classification
-
-> **Note**: Due to copyright and file size constraints, the dataset may not be included. Please add your own dataset (e.g., GTZAN) if needed.
+### 📃 License
+This project is intended for **educational** and **research** purposes only.
