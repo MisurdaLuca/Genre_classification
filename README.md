@@ -28,8 +28,6 @@ It showcases a full ML workflow from feature engineering to model evaluation and
 ## 📁 Repository Contents
 
 - `genre_classification.ipynb` – Main Jupyter Notebook with all steps  
-- `models/` – (optional) Trained models  
-- `data/` – (not included) Audio samples used for training  
 - `README.md` – Project overview and usage instructions  
 
 ## 🚀 How to Use
